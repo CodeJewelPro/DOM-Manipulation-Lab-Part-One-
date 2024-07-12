@@ -85,6 +85,6 @@ subMenuEl.addEventListener('click', event => {
 
     // Reset sub-menu position
     subMenuEl.style.top = '0';
-    mainEl.innerHTML = <h1>${event.target.textContent}</h1>;
+    mainEl.innerHTML = '<h1>${event.target.textContent}</h1>';
     topMenuLinks.forEach(link => link.classList.remove('active'));
 });
